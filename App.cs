@@ -145,6 +145,11 @@ namespace Test2
                 Console.WriteLine(pasqui.Replace("Jason Pasqui", "Pas Navarro1"));
 
                 Console.WriteLine(pasqui.Remove(0, 11));
+
+                // Using Arrays
+                string[] testArr = new string[3] { "jason", "pasqui", "navarro" };
+
+                Console.WriteLine(String.Join(" ", testArr));
         }
     }
 }
