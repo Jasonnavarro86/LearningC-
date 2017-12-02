@@ -119,3 +119,32 @@ namespace NumberGuesser
         }
     }
 }
+
+namespace Test2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string pasqui = "My name is Jason Pasqui";
+
+            string pasqui2 = "My name is Jason Navarro";
+
+                Console.WriteLine( String.IsNullOrEmpty(pasqui));
+                
+                Console.WriteLine(pasqui.Length);
+                
+
+                Console.WriteLine(pasqui.Substring(11));
+
+                Console.WriteLine("Equal Strings " + pasqui.Equals(pasqui2));
+
+                Console.WriteLine(pasqui.Length);
+
+                Console.WriteLine(pasqui.Replace("Jason Pasqui", "Pas Navarro1"));
+
+                Console.WriteLine(pasqui.Remove(0, 11));
+        }
+    }
+}
