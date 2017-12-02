@@ -153,8 +153,10 @@ namespace Test2
 
                 StringBuilder sb = new StringBuilder();
 
-                sb.Append("This is the first string builder")
-                 sb.AppendFormat(" I live in {0}", "Orlando")
+                sb.Append("This is the first string builder");
+                sb.AppendFormat(" I live in {0}", "Orlando");
+                sb.Clear;
+
         }
     }
 }
