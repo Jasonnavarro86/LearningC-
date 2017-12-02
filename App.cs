@@ -150,6 +150,11 @@ namespace Test2
                 string[] testArr = new string[3] { "jason", "pasqui", "navarro" };
 
                 Console.WriteLine(String.Join(" ", testArr));
+
+                StringBuilder sb = new StringBuilder();
+
+                sb.Append("This is the first string builder")
+                 sb.AppendFormat(" I live in {0}", "Orlando")
         }
     }
 }
