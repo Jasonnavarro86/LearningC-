@@ -71,15 +71,7 @@ namespace NumberGuesser
 
                 string answer = Console.ReadLine().ToUpper();
 
-                if (answer == "Y")
-                {
-                    continue;
-                }else if (answer =="N"){
-                        
-                    return;
-                }else{
-                    return;
-                }
+                
             }
 
         }
@@ -156,6 +148,17 @@ namespace Test2
                 sb.Append("This is the first string builder");
                 sb.AppendFormat(" I live in {0}", "Orlando");
                 sb.Clear;
+
+        }
+    }
+}
+
+namespace test3
+{
+    class program3
+    {
+        static void Main(string[] args)
+        {
 
         }
     }
