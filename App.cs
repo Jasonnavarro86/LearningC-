@@ -157,6 +157,11 @@ namespace test3
 {
     class program3
     {
+
+        private string conStruct()
+        {
+
+        }
         static void Main(string[] args)
         {
 
